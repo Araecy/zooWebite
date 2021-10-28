@@ -11,8 +11,5 @@
 </head>
 <body>
     <?php include "header.php" ?>
-    <div id="aX">
-        This is the about us page.
-    </div>
 </body>
 </html>
