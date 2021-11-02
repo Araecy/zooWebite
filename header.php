@@ -1,18 +1,20 @@
 <nav id="mainMenu">
   <ul class="navBar">
     <div class="dropdown">
-      <button class="dropBtn">Dropdown</button>
+
+      <div class="dropBtn navContainer" onclick="location.href='index.php';">Home</div>
       <div class="dropdownContent">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
+        <li><a href="#">link 1</a></li>
+        <li><a href="#">link 2</a></li>
+        <li><a href="#">link 3</a></li>
       </div>
     </div>
-    <li class="navBtnHome"><a href="index.php">Home</a></li>
-    <li class="navBtnAbout"><a href="about.php">About the zoo</a></li>
-    <li class="navBtnServices"><a href="services.php">Services</a></li>
-    <li class="navBtnProducts"><a href="products.php">Products</a></li>
-    <li class="navBtnContacts"><a href="contacts.php">Contacts</a></li>
+    <!-- <div class="dropBtn navContainer" onclick="location.href='index.php';">help</div> -->
+    <!-- <li class="navBtnHome navContainer"><a href="index.php">Home</a></li> -->
+    <li class="navBtnAbout navContainer"><a href="about.php">About the zoo</a></li>
+    <li class="navBtnServices navContainer"><a href="services.php">Services</a></li>
+    <li class="navBtnProducts navContainer"><a href="products.php">Products</a></li>
+    <li class="navBtnContacts navContainer"><a href="contacts.php">Contacts</a></li>
   </ul>
 </nav>
 
