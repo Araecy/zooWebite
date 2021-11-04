@@ -1,7 +1,9 @@
 <nav id="mainMenu">
   <ul class="navBar">
     <div class="dropdown">
-
+      <!-- NOTE 
+          BEKIJK HTML/CSS 2 DROPDOWN MENU zal 100% beter worden.
+    -->
       <div class="dropBtn navContainer" onclick="location.href='index.php';">Home</div>
       <div class="dropdownContent">
         <li><a href="#">link 1</a></li>

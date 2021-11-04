@@ -1,11 +1,25 @@
 #mainMenu .navBar {
+	display: flex;
+	
+	/* background-color: black; */
 	list-style: none;
-	margin-top: 40px;
+	/* margin-top: 40px; */
+	/* margin-bottom: 70px; */
+	/* padding-right: 10px; */
+	padding: 0;
+	/* margin: 0; */
+}
+#mainMenu {
+	/* height: 40px; */
+	/* background-color: black; */
 }
 
 #mainMenu .navBar li {
 	display: inline;
-	padding: 0 10px;
+	margin-top: 40px;
+	margin-bottom: 70px;
+	/* padding: 0 10px;
+	padding */
 }
 
 #mainMenu .navBar li a {
