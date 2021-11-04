@@ -1,58 +1,78 @@
-.head {
-    width: 100vw;
-    height: 40px;
-}
-.dropdownmenu ul, .dropdownmenu li {
-	margin: 0;
-	padding: 0;
-}
-.dropdownmenu ul {
-	background: gray;
+#mainMenu .navBar {
 	list-style: none;
-	width: 100%;
+	margin-top: 40px;
 }
-.dropdownmenu li {
-	float: left;
-	position: relative;
-	width:auto;
+
+#mainMenu .navBar li {
+	display: inline;
+	padding: 0 10px;
 }
-.dropdownmenu a {
-	background: #44c324;
-	color: #FFFFFF;
-	display: block;
-	font: bold 12px/20px sans-serif;
-	padding: 10px 25px;
-	text-align: center;
+
+#mainMenu .navBar li a {
 	text-decoration: none;
-	-webkit-transition: all .25s ease;
-	-moz-transition: all .25s ease;
-	-ms-transition: all .25s ease;
-	-o-transition: all .25s ease;
-	transition: all .25s ease;
+	/* padding-left: 25px; */
+	text-transform: uppercase;
+	color: #333;
+	text-shadow: 1px 1px 1px #ccc;
 }
-.dropdownmenu li:hover a {
-	background: #000000;
+#mainMenu .navBar .navContainer a:hover {background-color: rgba(82, 82, 82, 0.103);}
+.dropBtn:hover {background-color: rgba(82, 82, 82, 0.103);}
+.navContainer {
+	text-decoration: none;	
+	text-transform: uppercase;
+	color: #333;
+	text-shadow: 1px 1px 1px #ccc;
 }
-#submenu {
-	left: 0;
-	opacity: 0;
+
+.navBtnHome {
+
+}
+
+.navBtnAbout {
+
+}
+
+.navBtnServices {
+
+}
+
+.navBtnProducts {
+
+}
+
+.navBtnContacts {
+
+}
+.dropBtn {
+	/* background-color: #04AA6D; */
+	/* color: white; */
+	/* padding: 16px; */
+	font-size: 16px;
+	border: none;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdownContent {
+	display: none;
 	position: absolute;
-	top: 35px;
-	visibility: hidden;
+	background-color: rgba(82, 82, 82, 0.103);
+	min-width: 160px;
+	/* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
 	z-index: 1;
 }
-li:hover ul#submenu {
-	opacity: 1;
-	top: 40px;	/* adjust this as per top nav padding top & bottom comes */
-	visibility: visible;
+.dropdownContent a {
+	color: black;
+	/* padding: 12px 16px; */
+	text-decoration: none;
+	display: block;
 }
-#submenu li {
-	float: none;
-	width: 100%;
-}
-#submenu a:hover {
-	background: #DF4B05;
-}
-#submenu a {
-	background-color:#000000;
-}
+
+/* .dropdownContent a:hover {background-color: beige;} */
+
+.dropdown:hover .dropdownContent {display: block;}
+
+/* .dropdown:hover .dropBtn {background-color: #3e8e41;} */
