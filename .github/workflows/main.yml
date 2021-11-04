@@ -1,0 +1,17 @@
+on: push
+name: 🚀 Deploy website on push
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v2
+    
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@4.1.0
+      with:
+        server: 87286.ict-lab.nl
+        username: adminuser
+        password: ECwAtW+tL-Er7D6TpLfWSv&6Aw#W?xfdqe_G8nrZ!3X*RU_5fH!!-QZ5kk!&EgA7C4$H6Ks7#DYf4&u4aJvx3EqFuL@!Y&x$#!5Urr3Xb4k3Dk-JV8cpqDr-MR?PY*B8bJ$7U5p*$JNQM39mH4NL=kwAfLFUU9ycKPCn5qwuTg4wt-Z2f=LuXbHn!aztj^_6Dn7%wXCB%rE77y5BFX-yrM=cEt$Y4r7ZMF*a@GM8RtxfSVs9%YV%8P3smFvKxC^
+        #server-dir: /dir/
