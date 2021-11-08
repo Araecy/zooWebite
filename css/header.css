@@ -1,9 +1,8 @@
+
 .mainNavContainer a {
 	color: #D8D8D8;
 	text-decoration: none;
 }
-
-
 .mainNavContainer > ul {
 	background-color:#5E5D5D;
 	color:#D8D8D8;
@@ -40,6 +39,12 @@ ul.dropdownContents > li:hover {
 	white: white;
 	background-color: #656565;
 }
+.mainNavContainer ul {
+	/* Error -> small line at top. Find fix! */
+	/* margin: 0;  */
+}
+
+
 
 
 

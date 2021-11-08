@@ -3,7 +3,7 @@
     <li><a href="index.php">Home page</a>
     </li>
 
-    <li><a href="index.php">Tickets</a>
+    <li><a href="index.php">About us</a>
       <span class="arrow">&#9660;</span>
       <ul class="dropdownContents">
         <li><a href="numbersDatesAndFacts.php">Numbers, dates and facts</a></li>
@@ -13,13 +13,14 @@
         <li><a href="careers.php">Careers</a></li>
       </ul>
     </li>
-    
-    <li>About us
+
+    <li>Tickets
       <span class="arrow">&#9660;</span>
       <ul class="dropdownContents">
-        <li>Cpu</li>
-        <li>GPU</li>
-        <li>PSU</li>
+        <li><a href="dayTickets.php">Day tickets</a></li>
+        <li><a href="annualPasses.php">Annual passes</a></li>
+        <li><a href="groupTickets.php">Group tickets</a></li>
+        <li><a href="vouchers.php">Vouchers</a></li>
       </ul>
     </li>
     <li>Drink
