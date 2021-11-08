@@ -11,6 +11,6 @@
 </head>
 <body>
     <?php include "header.php" ?>
-    This is the home page.
+    <!-- This is the home page. -->
 </body>
 </html>

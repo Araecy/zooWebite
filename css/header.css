@@ -33,16 +33,23 @@ ul.dropdownContents > li {
 	padding-bottom: 5px;
 }
 .mainNavContainer li:hover .dropdownContents {
+	/* opacity: 1; */
+}
+.mainNavContainer ul > li:hover > .dropdownContents {
 	opacity: 1;
+	overflow: auto;
 }
 ul.dropdownContents > li:hover {
 	white: white;
 	background-color: #656565;
 }
-.mainNavContainer ul {
-	/* Error -> small line at top. Find fix! */
-	/* margin: 0;  */
-}
+/* .mainNavContainer {
+    position: absolute;
+    height: 110px;
+    top: 0px;
+    background-color: #5E5D5D;
+    width: 100vw;
+} */
 
 
 
